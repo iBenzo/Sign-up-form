@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-Up Form</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <div id="body-container">
+        <div id="image-side">
+          <div id="logo">
+            <img src="images/odin-lined.png" height="90px" width="90px" />
+            <p class="logo-text">Odin</p>
+          </div>
+          <div id="photo-credit">
+            <p>
+              Photo by
+              <a
+                class="photo-credit-text"
+                href="https://ellapellegrini.format.com/"
+                >Elia Pellegrini</a
+              >
+              on
+              <a class="photo-credit-text" href="https://unsplash.com/"
+                >Unsplash</a
+              >
+            </p>
+          </div>
+        </div>
+        <div id="form-side">
+          <div id="top-form-side">
+            <p class="top-text">
+              This is not a fully functioning site, it is more to test my
+              abilites with css, by copying an example without seeing the code,
+              it also allows me to work with the form inputs
+            </p>
+            <p class="top-text">
+              Everything on this page should work, it just doesnt connect to a
+              backend.
+            </p>
+          </div>
+          <div id="middle-form-side">
+            <h2>Sign Up!</h2>
+            <div id="form-container">
+              <div id="left-form">
+                <div>
+                  <label for="first_name">
+                    FIRST NAME
+                    <input
+                      type="text"
+                      id="first_name"
+                      name="first_name"
+                      placeholder="Your first name"
+                      required
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label for="email">
+                    EMAIL
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="odin@gmail.com"
+                      required
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label for="password"
+                    >PASSWORD
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      minlength="5"
+                      title="Password must contain 5 letters"
+                    />
+                  </label>
+                </div>
+              </div>
+              <div id="right-form">
+                <label for="last_name">
+                  LAST NAME
+                  <input
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                    placeholder="Your last name"
+                    required
+                  />
+                </label>
+                <label for="phone_number">
+                  PHONE NUMBER
+                  <input
+                    type="tel"
+                    id="phone_number"
+                    name="phone_number"
+                    placeholder="123-456-7890"
+                    required
+                  />
+                </label>
+                <label for="confrim_password">
+                  CONFIRM PASSWORD
+                  <input
+                    type="text"
+                    id="confrim_password"
+                    name="confrim_password"
+                    required
+                  />
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="bottom-form-side">
+            <button id="create-account-btn">Create Account</button>
+            <p>
+              Already have an account?
+              <a class="sign-in-text" href="sdg">Sign in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
