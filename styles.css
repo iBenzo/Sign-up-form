@@ -9,7 +9,7 @@ body {
   background-image: url(images/elia-pellegrini-_GMsPDNG8nA-unsplash.jpg);
   background-size: 100vh;
   height: 100vh;
-  width: 40vw;
+  max-width: 40vw;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -65,7 +65,9 @@ body {
   padding: 50px;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 100px;
+}
+.top-text {
+  margin-top: auto;
 }
 
 #middle-form-side {
@@ -119,13 +121,26 @@ input {
   border: 1px solid #e5e7eb;
   border-radius: 3px;
 }
+
 label {
   margin-bottom: 40px;
 }
 input:focus {
   outline: none;
   border: 1px solid #0000ff;
+  box-shadow: 5px 10px 8px #888888;
 }
 .sign-in-text {
   color: #596d48;
+}
+
+#password-container {
+  position: responsive;
+}
+.p-viewer {
+  float: right;
+  margin-top: -26px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
 }
