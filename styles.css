@@ -137,7 +137,8 @@ input:focus {
 #password-container {
   position: responsive;
 }
-.p-viewer {
+.p-viewer,
+.p-viewer2 {
   float: right;
   margin-top: -26px;
   position: relative;
